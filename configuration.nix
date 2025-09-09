@@ -4,6 +4,8 @@
   imports =
     [
       ./packages.nix
+      ./sys-modules/network.nix
+      ./sys-modules/nvidia.nix
       ./sys-modules/keyboard.nix
       ./sys-modules/language.nix
       ./sys-modules/sound.nix
@@ -17,7 +19,6 @@
   boot.loader.efi.canTouchEfiVariables = true;
 
   networking.hostName = "omen";
-  networking.networkmanager.enable = true;
 
 
   nix.settings.experimental-features = ["nix-command" "flakes"];
