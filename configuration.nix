@@ -9,6 +9,7 @@
       ./sys-modules/sound.nix
       ./sys-modules/user.nix
       ./sys-modules/xserver.nix
+      ./hardware-configuration.nix
     ];
 
   # Bootloader.
