@@ -26,6 +26,7 @@
     libnotify
 
     v2rayn
+    xray
 
     #CLI utils
     ## Системные
