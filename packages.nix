@@ -25,6 +25,10 @@
     xorg.xprop
     libnotify
 
+    openvpn
+    networkmanager_openvpn
+    protonvpn-cli
+
     #CLI utils
     ## Системные
     neofetch
