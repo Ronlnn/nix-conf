@@ -21,6 +21,7 @@
 
     # VPN
     hiddify-app
+    xorg.xdpyinfo
 
     #CLI utils
     ## Системные
