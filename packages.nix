@@ -25,9 +25,7 @@
     xorg.xprop
     libnotify
 
-    openvpn
-    networkmanager-openvpn
-    protonvpn-cli
+    v2rayn
 
     #CLI utils
     ## Системные
