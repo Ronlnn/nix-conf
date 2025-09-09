@@ -25,6 +25,7 @@
     xorg.xprop
     libnotify
 
+    nekoray
     v2rayn
     xray
 
