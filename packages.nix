@@ -22,6 +22,8 @@
     # VPN
     hiddify-app
     xorg.xdpyinfo
+    xorg.xprop
+    libnotify
 
     #CLI utils
     ## Системные
