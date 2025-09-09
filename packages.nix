@@ -26,7 +26,7 @@
     libnotify
 
     openvpn
-    networkmanager_openvpn
+    networkmanager-openvpn
     protonvpn-cli
 
     #CLI utils
