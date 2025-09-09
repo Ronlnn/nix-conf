@@ -20,7 +20,7 @@
 
   programs.nekoray.enable = true;
   programs.nekoray.tunMode.enable = true;
-  rograms.nekoray.tunMode.setuid = true;
+  programs.nekoray.tunMode.setuid = true;
 
   networking.hostName = "omen";
 
