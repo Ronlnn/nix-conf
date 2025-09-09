@@ -28,6 +28,7 @@
     nekoray
     v2rayn
     xray
+    v2ray
 
     #CLI utils
     ## Системные
