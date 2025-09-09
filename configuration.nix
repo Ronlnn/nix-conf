@@ -18,8 +18,9 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
+  programs.nekoray.enable = true;
   programs.nekoray.tunMode.enable = true;
-  
+
   networking.hostName = "omen";
 
 
