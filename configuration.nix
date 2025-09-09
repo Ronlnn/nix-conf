@@ -19,7 +19,7 @@
   networking.networkmanager.enable = true;
 
 
-  nix.setting.experimental-features = ["nix-command" "flakes"];
+  nix.settings.experimental-features = ["nix-command" "flakes"];
 
 
   # Enable CUPS to print documents.
