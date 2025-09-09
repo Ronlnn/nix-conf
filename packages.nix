@@ -20,15 +20,8 @@
     nodejs
 
     # VPN
-    hiddify-app
-    xorg.xdpyinfo
-    xorg.xprop
-    libnotify
-
     nekoray
-    v2rayn
     xray
-    v2ray
 
     #CLI utils
     ## Системные
