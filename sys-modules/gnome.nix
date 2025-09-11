@@ -4,12 +4,14 @@
   imports = [
       ./gdm.nix
   ];
-    # Включение gnome
-    services.xserver.desktopManager.gnome.enable = true;
+
     # Выключаем дефолтные программы
     services.gnome.core-apps.enable = true;
 
     services.xserver = {
+      # Включение gnome
+      desktopManager.gnome.enable = true;
+      # Клавиатура
       xkb = {
         layout = "us,ru";
         variant = "";
