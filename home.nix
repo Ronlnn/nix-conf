@@ -2,9 +2,9 @@
 
 {
   imports = [
-
-	./home-manager/git.nix
-	./home-manager/alacritty.nix
+    ./home-manager/gnome-tweaks.nix
+	  ./home-manager/git.nix
+	  ./home-manager/alacritty.nix
   ];
 
  home = {
@@ -12,7 +12,7 @@
   homeDirectory = "/home/roninn";
   stateVersion = "25.05";
  };
-  
+
   systemd.user.startServices = true;
 
 
