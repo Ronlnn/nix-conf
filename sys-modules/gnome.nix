@@ -21,7 +21,7 @@
   console.keyMap = "us";
 
   # Настройки для GNOME через dconf
-  services.dconf = {
+  programs.dconf = {
     enable = true;
     profiles.user.databases = [{
       settings = {
