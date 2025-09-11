@@ -5,7 +5,6 @@
       ./gdm.nix
   ];
 
-  config = lib.mkIf config.gnome.enable {
     # Включение gnome
     services.xserver.desktopManager.gnome.enable = true;
 
@@ -17,5 +16,4 @@
 
     # Выключаем дефолтные программы
     services.gnome.core-apps.enable = true;
-  };
 }
