@@ -2,6 +2,7 @@
 
 {
   imports = [
+  ./home-manager/gnome.nix
 	./home-manager/git.nix
 	./home-manager/alacritty.nix
   ];
