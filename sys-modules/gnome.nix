@@ -21,6 +21,8 @@
   };
 
   environment.systemPackages = with pkgs; [
+    dconf
+    dconf-editor
     gnomeExtensions.system-monitor
     gnomeExtensions.blur-my-shell
     gnomeExtensions.just-perfection
