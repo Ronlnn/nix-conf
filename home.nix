@@ -12,13 +12,7 @@
   homeDirectory = "/home/roninn";
   stateVersion = "25.05";
  };
-  dconf.settings = {
-    "org/gnome/desktop/input-sources" = {
-      show-all-sources = true;
-      sources = [ (mkTuple [ "xkb" "eu" ]) (mkTuple [ "xkb" "us+altgr-intl" ]) ];
-      xkb-options = [ "terminate:ctrl_alt_bksp" ];
-    };
-};
+  
   systemd.user.startServices = true;
 
 
