@@ -23,5 +23,7 @@
   environment.systemPackages = with pkgs; [
     gnome-tweaks
     gnomeExtensions.system-monitor
+    gnomeExtensions.blur-my-shell
+    gnomeExtensions.just-perfection
   ];
 }
