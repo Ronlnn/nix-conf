@@ -1,38 +1,13 @@
-{ config, pkgs, ... }:
+{ config, lib, pkgs, ... }:
 
 {
   imports = [
-    ./gdm.nix
+      ./gdm.nix
   ];
+    # Включение gnome
+    services.xserver.desktopManager.gnome.enable = true;
+    # Выключаем дефолтные программы
+    services.gnome.core-apps.enable = true;
 
-  services.xserver = {
-    enable = true;
-
-    xkb = {
-      layout = "us,ru";
-      variant = "";
-      options = "grp:alt_shift_toggle";
-    };
-
-    displayManager.gdm.enable = true;
-    desktopManager.gnome.enable = true;
-  };
-
-  console.keyMap = "us";
-
-  # Настройки для GNOME через dconf
-  programs.dconf = {
-    enable = true;
-    profiles.user.databases = [{
-      settings = {
-        "org/gnome/desktop/input-sources" = {
-          sources = [
-            "xkb:us"
-            "xkb:ru"
-          ];
-          xkb-options = ["grp:alt_shift_toggle"];
-        };
-      };
-    }];
-  };
+    
 }
