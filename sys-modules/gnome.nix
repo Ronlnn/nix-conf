@@ -19,4 +19,9 @@
         options = "grp:alt_shift_toggle";
       };
   };
+
+  environment.systemPackages = with pkgs; [
+    gnome-tweaks
+    
+  ];
 }
