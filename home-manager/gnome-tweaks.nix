@@ -4,24 +4,22 @@
     enable = true;
     settings = {
       "org/gnome/shell" = {
-        # disable-user-extensions = true; # Optionally disable user extensions entirely
         enabled-extensions = [
-          # Put UUIDs of extensions that you want to enable here.
-          # If the extension you want to enable is packaged in nixpkgs,
-          # you can easily get its UUID by accessing its extensionUuid
-          # field (look at the following example).
-          pkgs.gnomeExtensions.gsconnect.extensionUuid
-
-          # Alternatively, you can manually pass UUID as a string.
           "blur-my-shell@aunetx"
-          # ...
+          "just-perfection-desktop@just-perfection"
+          "system-monitor@gnome-shell-extensions.gcampax.github.com"
+          "user-theme@gnome-shell-extensions.gcampax.github.com"
         ];
       };
 
-      # Configure individual extensions
       "org/gnome/shell/extensions/blur-my-shell" = {
         brightness = 0.75;
         noise-amount = 0;
+        sigma = 10;
+        color-and-noise = true;
+      };
+      "org/gnome/shell/extensions/blur-my-shell/overview" = {
+        blur = true;
       };
     };
   };
