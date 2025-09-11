@@ -7,7 +7,6 @@
       ./sys-modules/gnome.nix
       ./sys-modules/network.nix
       ./sys-modules/nvidia.nix
-      ./sys-modules/keyboard.nix
       ./sys-modules/language.nix
       ./sys-modules/sound.nix
       ./sys-modules/user.nix
