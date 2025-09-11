@@ -10,8 +10,11 @@
     services.gnome.core-apps.enable = true;
 
     services.xserver = {
-      xkb.layout = "us,ru";
-      xkb.variant = "";
-      xkb.options = "grp:win_space_toggle";
+      xkb = {
+        layout = "us,ru";
+        variant = "";
+        model = "pc104";
+        options = "grp:alt_shift_toggle";
+      };
   };
 }
