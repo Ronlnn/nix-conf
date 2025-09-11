@@ -11,7 +11,7 @@
 
     services.xserver = {
       xkb.layout = "us,ru";
-      xkbVariant = "";
-      xkbOptions = "grp:win_space_toggle";
+      xkb.variant = "";
+      xkb.options = "grp:win_space_toggle";
   };
 }
