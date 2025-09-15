@@ -12,6 +12,7 @@
     # Инструмент для настройки Qt
     qt6ct
     dracula-theme
+    
   ];
 
   # 2. Настройка GTK (для Thunar, Blueman, Pavucontrol)
