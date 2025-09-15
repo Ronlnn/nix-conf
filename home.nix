@@ -5,6 +5,7 @@
     ./home-manager/gnome-tweaks.nix
 	  ./home-manager/git.nix
 	  ./home-manager/alacritty.nix
+    ./home-manager/gtk.nix
   ];
 
  home = {
