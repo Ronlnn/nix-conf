@@ -14,6 +14,7 @@
     onlyoffice-desktopeditors
     kdePackages.okular
     anydesk
+    anki
 
     # Coding stuff
     vscode
@@ -41,7 +42,7 @@
     lsd
     bat
     git
-  
+
 
 
     ## Сетевые и файловые
