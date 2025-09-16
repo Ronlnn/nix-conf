@@ -14,7 +14,7 @@
     onlyoffice-desktopeditors
     kdePackages.okular
     anydesk
-    anki
+    anki-bin
 
     # Coding stuff
     vscode
