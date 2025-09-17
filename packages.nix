@@ -15,6 +15,7 @@
     kdePackages.okular
     anydesk
     anki-bin
+    ticktick
 
     # Coding stuff
     vscode
