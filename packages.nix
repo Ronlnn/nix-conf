@@ -16,6 +16,7 @@
     anydesk
     anki-bin
     ticktick
+    appimage-run
 
     # Coding stuff
     vscode
