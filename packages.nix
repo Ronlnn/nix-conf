@@ -16,7 +16,6 @@
     anydesk
     anki-bin
     ticktick
-    notion-app
     appimage-run
 
     # Coding stuff

@@ -31,7 +31,7 @@
   services.printing.enable = true;
 
   programs.firefox.enable = true;
-
+  services.flatpak.enable = true;
 
 
   nix.gc = {
