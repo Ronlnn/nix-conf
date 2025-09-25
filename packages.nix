@@ -19,6 +19,7 @@
     appimage-run
     sass
     nodePackages.sass
+    ventoy
 
     # Coding stuff
     vscode
