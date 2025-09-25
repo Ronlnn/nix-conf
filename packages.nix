@@ -18,6 +18,7 @@
     ticktick
     appimage-run
     sass
+    nodePackages.sass
 
     # Coding stuff
     vscode
