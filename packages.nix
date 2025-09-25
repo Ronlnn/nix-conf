@@ -1,11 +1,13 @@
-{pkgs, ...}: {
+{ pkgs, ... }: {
   nixpkgs.config = {
     allowUnfree = true;
+    permittedInsecurePackages = [
+      "ventoy-1.1.05"
+    ];
   };
 
-   environment.systemPackages = with pkgs; [
+  environment.systemPackages = with pkgs; [
     # Desktop apps
-
     telegram-desktop
     alacritty
     obsidian
@@ -29,7 +31,7 @@
     nekoray
     xray
 
-    #CLI utils
+    # CLI utils
     ## Системные
     neofetch
     fastfetch
@@ -48,25 +50,20 @@
     bat
     git
 
-
-
     ## Сетевые и файловые
     wget
     networkmanager
-
 
     # Скриншоты
     flameshot
 
     home-manager
-
-
   ];
+
   fonts.packages = with pkgs; [
     font-awesome
     fira
     nerd-fonts.fira-code
     nerd-fonts.jetbrains-mono
-];
-
+  ];
 }
