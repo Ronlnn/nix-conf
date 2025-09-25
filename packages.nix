@@ -22,6 +22,7 @@
     sass
     nodePackages.sass
     ventoy
+    popsicle  
 
     # Coding stuff
     vscode
