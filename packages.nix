@@ -17,6 +17,7 @@
     anki-bin
     ticktick
     appimage-run
+    sass
 
     # Coding stuff
     vscode
